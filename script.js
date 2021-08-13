@@ -86,6 +86,7 @@ function checkForWin() {
             document.getElementById('game-over').classList.remove('d-none')
         }, 2000);
     }
+    restartButton();
 }
 
 function restart() {
@@ -93,3 +94,7 @@ function restart() {
 
 }
 
+function restartButton () {
+    document.getElementById('restart-btn').classList.remove('d-none');
+
+}
